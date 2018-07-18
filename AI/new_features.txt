@@ -1,13 +1,11 @@
-@attribute having_IP_Address  { -1,1 }	z			split url
+@attribute having_IP_Address  { -1,1 }	z			v split url
 @attribute URL_Length   { 1,0,-1 }	z			v strlen url
 @attribute having_@_Symbol   { 1,-1 }	z			v split url
 @attribute double_slash_redirecting { -1,1 }	z		split url
-@attribute Domain Name Part Includes (-) Symbol { -1,1 } b	split url
-@attributes HTTPS { 1, 0, -1 } o
+@attribute Domain Name Part Includes (-) Symbol { -1,1 } b	v split url
 @attribute port { -1,1 } b					v http://www.pythonforbeginners.com/code-snippets-source-code/port-scanner-in-python 
 @attribute HTTPS_token { -1,1 }	b				v split url
 @attributes Abnormal URL { -1, 1 }	o			v http://www.pythonforbeginners.com/dns/using-pywhois
 @attributes Age_of_domain { 1, -1 }o				v http://www.pythonforbeginners.com/dns/using-pywhois
-@attributes DNS_Record { -1, 1 }	o			http://www.pythonforbeginners.com/dns/using-pywhois
-@attributes Website_Traffic { 1, 0, -1 } b
+@attributes DNS_Record { -1, 1 }	o			v http://www.pythonforbeginners.com/dns/using-pywhois
 @attributes Google_Index { 1, -1 }b				v

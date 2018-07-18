@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="enjoy.in" company="cv. enjoy tenan" webLink="http://enjoy.in" view-date="2018-04-29" view-index="0" gantt-divider-location="357" resource-divider-location="300" version="2.8.8" locale="en_ID">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="235" order="0"/>
+        <field id="tpd4" name="Begin date" width="52" order="1"/>
+        <field id="tpd5" name="End date" width="51" order="2"/>
+        <option id="color.recent"><![CDATA[#99ffff #00cccc #f4f4f4 #cccccc #ffffff #cc0033 #cc0000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="206" order="0"/>
+        <field id="1" name="Default role" width="90" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="none">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2018" month="5" date="10" type="HOLIDAY" color="#99ffff"><![CDATA[Kenaikan Isa Al Masih]]></date>
+        <date year="2018" month="5" date="1" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Buruh Internasional]]></date>
+        <date year="2018" month="5" date="29" type="HOLIDAY" color="#99ffff"><![CDATA[Hari raya Waisak]]></date>
+        <date year="2018" month="6" date="1" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Lahir Pancasila]]></date>
+        <date year="2018" month="6" date="13" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Fitri]]></date>
+        <date year="2018" month="6" date="14" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Fitri]]></date>
+        <date year="2018" month="6" date="15" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Fitri]]></date>
+        <date year="2018" month="6" date="16" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Fitri]]></date>
+        <date year="2018" month="6" date="17" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Fitri]]></date>
+        <date year="2018" month="6" date="18" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Fitri]]></date>
+        <date year="2018" month="6" date="19" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Fitri]]></date>
+        <date year="2018" month="8" date="17" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Kemerdekaan Ri]]></date>
+        <date year="2018" month="8" date="22" type="HOLIDAY" color="#99ffff"><![CDATA[Hari Raya Idul Adha]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Analisa Kebutuhan" meeting="false" start="2018-04-23" duration="4" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <task id="7" name="Scope Project" color="#8cb6ce" meeting="false" start="2018-04-23" duration="4" complete="0" thirdDate="2018-04-23" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Functional Requirment" color="#8cb6ce" meeting="false" start="2018-04-23" duration="4" complete="0" thirdDate="2018-04-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="1" name="Design" color="#000000" meeting="false" start="2018-04-30" duration="5" complete="0" thirdDate="2018-07-09" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Design Database" color="#8cb6ce" meeting="false" start="2018-04-30" duration="5" complete="0" thirdDate="2018-04-30" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Design Mockup" color="#8cb6ce" meeting="false" start="2018-04-30" duration="5" complete="0" thirdDate="2018-04-30" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="9" name="Building Project" meeting="false" start="2018-05-08" duration="40" complete="0" expand="true">
+            <task id="11" name="Building Front End" color="#000000" meeting="false" start="2018-05-08" duration="30" complete="0" thirdDate="2018-07-09" thirdDate-constraint="0" expand="true">
+                <task id="33" name="UI Login and Registration Fitur" color="#8cb6ce" meeting="false" start="2018-05-08" duration="2" complete="0" thirdDate="2018-05-08" thirdDate-constraint="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="35" name="UI Home Page" color="#8cb6ce" meeting="false" start="2018-05-11" duration="3" complete="0" thirdDate="2018-05-11" thirdDate-constraint="0" expand="true">
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="37" name="UI Tour Fitur" color="#000000" meeting="false" start="2018-05-16" duration="11" complete="0" thirdDate="2018-05-07" thirdDate-constraint="0" expand="true">
+                    <depend id="47" type="2" difference="0" hardness="Strong"/>
+                    <task id="39" name="UI Searching Tour Package" color="#8cb6ce" meeting="false" start="2018-05-16" duration="3" complete="0" thirdDate="2018-05-16" thirdDate-constraint="0" expand="true">
+                        <depend id="17" type="2" difference="0" hardness="Strong"/>
+                        <depend id="41" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="41" name="UI Tour Reservation" color="#8cb6ce" meeting="false" start="2018-05-21" duration="3" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true">
+                        <depend id="18" type="2" difference="0" hardness="Strong"/>
+                        <depend id="43" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="43" name="UI Canceling Tour Reservation" color="#8cb6ce" meeting="false" start="2018-05-24" duration="3" complete="0" thirdDate="2018-05-24" thirdDate-constraint="0" expand="true">
+                        <depend id="19" type="2" difference="0" hardness="Strong"/>
+                        <depend id="45" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="45" name="UI Hotel Reservation" color="#8cb6ce" meeting="false" start="2018-05-30" duration="2" complete="0" thirdDate="2018-05-30" thirdDate-constraint="0" expand="true">
+                        <depend id="24" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="47" name="UI Travel Fitur" color="#000000" meeting="false" start="2018-06-04" duration="8" complete="0" thirdDate="2018-05-07" thirdDate-constraint="0" expand="true">
+                    <depend id="55" type="2" difference="0" hardness="Strong"/>
+                    <task id="49" name="UI Searching Travel Package" color="#8cb6ce" meeting="false" start="2018-06-04" duration="3" complete="0" thirdDate="2018-06-04" thirdDate-constraint="0" expand="true">
+                        <depend id="51" type="2" difference="0" hardness="Strong"/>
+                        <depend id="114" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="51" name="UI Travel Reservation" color="#8cb6ce" meeting="false" start="2018-06-07" duration="2" complete="0" thirdDate="2018-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="53" type="2" difference="0" hardness="Strong"/>
+                        <depend id="119" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="53" name="UI Canceling Travel Reservation" color="#8cb6ce" meeting="false" start="2018-06-11" duration="3" complete="0" thirdDate="2018-06-11" thirdDate-constraint="0" expand="true">
+                        <depend id="124" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="55" name="UI Payment" color="#8cb6ce" meeting="false" start="2018-06-21" duration="6" complete="0" thirdDate="2018-06-21" thirdDate-constraint="0" expand="true">
+                    <depend id="23" type="2" difference="0" hardness="Strong"/>
+                    <task id="109" name="Travel Fitur" color="#000000" meeting="false" start="2018-06-21" duration="6" complete="0" thirdDate="2018-06-22" thirdDate-constraint="0" expand="true">
+                        <task id="114" name="Searching Travel Package" color="#8cb6ce" meeting="false" start="2018-06-21" duration="3" complete="0" thirdDate="2018-07-05" thirdDate-constraint="0" expand="true"/>
+                        <task id="119" name="Travel Reservation" color="#8cb6ce" meeting="false" start="2018-06-21" duration="6" complete="0" thirdDate="2018-06-27" thirdDate-constraint="0" expand="true"/>
+                        <task id="124" name="Canceling Travel Reservation" color="#8cb6ce" meeting="false" start="2018-06-21" duration="5" complete="0" thirdDate="2018-07-02" thirdDate-constraint="0" expand="true">
+                            <depend id="23" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                </task>
+            </task>
+            <task id="13" name="Building Back End" meeting="false" start="2018-05-11" duration="38" complete="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+                <task id="25" name="Login and Registration Fitur" color="#8cb6ce" meeting="false" start="2018-05-11" duration="3" complete="0" thirdDate="2018-05-11" thirdDate-constraint="0" expand="true">
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="14" name="Home Page" color="#8cb6ce" meeting="false" start="2018-05-16" duration="3" complete="0" thirdDate="2018-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="15" name="Tour Fitur" color="#000000" meeting="false" start="2018-05-21" duration="17" complete="0" thirdDate="2018-05-17" thirdDate-constraint="0" expand="true">
+                    <task id="17" name="Searching Tour Package" color="#8cb6ce" meeting="false" start="2018-05-21" duration="4" complete="0" thirdDate="2018-05-21" thirdDate-constraint="0" expand="true">
+                        <depend id="18" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="18" name="Tour Reservation" color="#8cb6ce" meeting="false" start="2018-05-25" duration="7" complete="0" thirdDate="2018-05-25" thirdDate-constraint="0" expand="true"/>
+                    <task id="19" name="Canceling Tour Reservation" color="#8cb6ce" meeting="false" start="2018-05-30" duration="6" complete="0" thirdDate="2018-05-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="24" name="Hotel Reservation and Restaurant Reservation" color="#8cb6ce" meeting="false" start="2018-06-04" duration="9" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="23" name="Payment" color="#8cb6ce" meeting="false" start="2018-06-29" duration="10" complete="0" thirdDate="2018-07-25" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="27" name="Debug and Testing" color="#8cb6ce" meeting="false" start="2018-07-13" duration="12" complete="0" thirdDate="2018-08-08" thirdDate-constraint="0" expand="true">
+            <depend id="74" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="74" name="Traning and UAT" color="#8cb6ce" meeting="false" start="2018-07-31" duration="6" complete="0" thirdDate="2018-08-20" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Bibie Hadi Kusuma" function="5" contacts="bibie.hadi@enjoy.in" phone="082257746611"/>
+        <resource id="1" name="Hizkia Luke S" function="Default:1" contacts="hizkia.luke@enjoy.in" phone="087859620736">
+            <rate name="standard" value="2000000"/>
+        </resource>
+        <resource id="2" name="Muhamad  Irfan Zidni" function="6" contacts="irfan.zidni@enjoy.in" phone="085785334080"/>
+        <resource id="3" name="Bimo Prakoso" function="5" contacts="bimo.prakoso@enjoy.in" phone="081331398067"/>
+        <resource id="4" name="Bibie Hadi Kusuma" function="3" contacts="bibie.hadi@enjoy.in" phone="082257746611"/>
+        <resource id="5" name="Bimo Prakoso" function="4" contacts="bimo.prakoso@enjoy.in" phone="081331398067"/>
+    </resources>
+    <allocations>
+        <allocation task-id="25" resource-id="0" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="5" responsible="false" load="20.0"/>
+        <allocation task-id="74" resource-id="0" function="5" responsible="false" load="80.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="5" resource-id="1" function="Default:1" responsible="true" load="80.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="33" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="35" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="39" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="41" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="45" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="49" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="51" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="53" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="55" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="14" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="18" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="24" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="23" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="27" resource-id="1" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="74" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="2" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="3" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="3" function="5" responsible="false" load="20.0"/>
+        <allocation task-id="74" resource-id="3" function="5" responsible="false" load="80.0"/>
+        <allocation task-id="7" resource-id="4" function="3" responsible="false" load="50.0"/>
+        <allocation task-id="8" resource-id="4" function="3" responsible="false" load="50.0"/>
+        <allocation task-id="5" resource-id="4" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="5" function="4" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="3" name="system analyst"/>
+        <role id="4" name="quality control"/>
+        <role id="5" name="back-end developer"/>
+        <role id="6" name="front-end developer"/>
+    </roles>
+</project>

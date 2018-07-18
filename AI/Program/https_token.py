@@ -1,5 +1,5 @@
 from urllib.parse import urlparse
-parsed = urlparse('https://123.123.123.123/hallo.html')
+parsed = urlparse('http://blossomzones.com/')
 
 if "https" in parsed.netloc :
     print("Website Phishing")
